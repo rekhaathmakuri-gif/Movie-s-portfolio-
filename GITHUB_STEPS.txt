@@ -1,0 +1,26 @@
+MOVIEBOOK - ADD TO YOUR EXISTING GITHUB REPOSITORY
+
+Do NOT create a new repository.
+
+1. Extract this ZIP.
+2. Open your existing MovieBook GitHub repository.
+3. Choose Add file -> Upload files.
+4. Upload/replace these files in the repository root:
+   - index.html (replace old index.html)
+   - README.md
+   - .gitignore
+   - CHANGELOG.md
+   - VERSION
+5. Commit message:
+   Add version control documentation and update MovieBook
+6. Click Commit changes.
+7. Render should redeploy from the same connected repository. If not:
+   Render -> Manual Deploy -> Deploy latest commit.
+
+For future changes:
+- Edit the project files.
+- Update VERSION and CHANGELOG.md.
+- Commit the changes with a descriptive message.
+
+GitHub commit history is the actual version history. VERSION and CHANGELOG
+are documentation and do not replace Git commits.
